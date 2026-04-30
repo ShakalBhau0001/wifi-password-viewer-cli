@@ -9,6 +9,7 @@ A Python-based **Wi-Fi Password Viewer CLI Tool** that scans all saved Wi-Fi pro
 ```bash
 wifi-password-viewer/
 │
+├── assets/             # Screenshots
 ├── main.py             # Main CLI application
 ├── LICENSE
 └── README.md           # Project documentation
