@@ -163,7 +163,9 @@ Total: 3   ✔ Found: 2   No Password: 1   ⚠ Errors: 0
 
 ## 📸 Preview
 
-![Rich CLI Preview](assets/Caesar.png)
+![Rich CLI Preview](assets/WiFi.png)
+
+![Rich CLI Preview](assets/WiFi-2.png)
 
 ---
 
