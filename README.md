@@ -58,12 +58,6 @@ Python 3.7+
 Windows OS (uses netsh command)
 ```
 
-Install required libraries:
-
-```bash
-pip install rich
-```
-
 ---
 
 ## ▶️ How to Run
