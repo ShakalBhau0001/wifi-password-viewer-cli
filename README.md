@@ -1,4 +1,4 @@
-# 📶 WiFi Password Viewer 🔐
+# 📶 WiFi Password Viewer (CLI) 🔐
 
 A Python-based **Wi-Fi Password Viewer CLI Tool** that scans all saved Wi-Fi profiles on your Windows machine and displays their passwords in a **beautiful, styled terminal interface** powered by the `rich` library.
 
@@ -7,10 +7,11 @@ A Python-based **Wi-Fi Password Viewer CLI Tool** that scans all saved Wi-Fi pro
 ## 🧱 Project Structure
 
 ```bash
-wifi-password-viewer/
+wifi-password-viewer-cli/
 │
 ├── assets/             # Screenshots
 ├── main.py             # Main CLI application
+├── requirements.txt
 ├── LICENSE
 └── README.md           # Project documentation
 ```
@@ -33,6 +34,10 @@ wifi-password-viewer/
 - **Styled table** with status column: ✔ Found / No Password / ⚠ Error
 - **Summary panel** at the end showing total, found, empty, and error counts
 - **Footer rule** with a security reminder
+
+### ⚡ Dual Mode Support
+- 🧼 Basic CLI → Lightweight, no dependencies
+- 🎨 Rich CLI → Enhanced UI with colors and panels
 
 ---
 
@@ -66,16 +71,22 @@ pip install rich
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/ShakalBhau0001/wifi-password-viewer.git
+git clone https://github.com/ShakalBhau0001/wifi-password-viewer-cli.git
 ```
 
 ### 2️⃣ Enter the project directory
 
 ```bash
-cd wifi-password-viewer
+cd wifi-password-viewer-cli
 ```
 
 ### 3️⃣ Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+OR
 
 ```bash
 pip install rich
