@@ -11,8 +11,8 @@ wifi-password-viewer-cli/
 │
 ├── assets/             # Screenshots
 ├── main.py             # Main CLI application
-├── requirements.txt
-├── LICENSE
+├── requirements.txt    # Project dependecies
+├── LICENSE             # MIT LICENSE
 └── README.md           # Project documentation
 ```
 
@@ -21,14 +21,17 @@ wifi-password-viewer-cli/
 ## ✨ Features
 
 ### 📡 Auto Profile Scanner
+
 - Automatically detects **all saved Wi-Fi profiles** on your Windows machine
 - Uses Windows built-in `netsh` command — no third-party dependencies for data
 
 ### 🔐 Password Extractor
+
 - Extracts passwords using `key=clear` flag via `netsh`
 - Handles networks with **no password** and **encoding errors** gracefully
 
 ### 📊 Rich Terminal UI
+
 - Animated **spinner** while scanning profiles
 - **Progress bar** with live profile name updates while fetching passwords
 - **Styled table** with status column: ✔ Found / No Password / ⚠ Error
@@ -36,6 +39,7 @@ wifi-password-viewer-cli/
 - **Footer rule** with a security reminder
 
 ### ⚡ Dual Mode Support
+
 - 🧼 Basic CLI → Lightweight, no dependencies
 - 🎨 Rich CLI → Enhanced UI with colors and panels
 
@@ -133,6 +137,23 @@ Total: 3   ✔ Found: 2   No Password: 1   ⚠ Errors: 0
 - **Windows only** — uses `netsh`, which is a Windows-exclusive command
 - Requires **Administrator privileges** to read saved passwords
 - Only shows passwords for networks saved on the current machine
+
+---
+
+## 📦 Related Projects
+
+This repository focuses on a **specific encoding technique** implemented
+as a **command-line (CLI) learning project**.
+
+The goal of this project is to:
+
+- Understand how Base64 encoding works at a practical level
+- Practice decoding challenges commonly seen in **CTFs**
+- Learn how simple CLI-based tools are structured
+
+For more advanced, security-focused CLI tools, check out:
+
+> 🔗 **[CLI Projects](https://github.com/stars/ShakalBhau0001/lists/cli-projects)**
 
 ---
 
